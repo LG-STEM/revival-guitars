@@ -7,6 +7,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'pg'
 gem 'puma'
 gem 'rails', '5.1.3'
+gem 'omniauth-facebook'
 gem 'redis'
 
 gem 'autoprefixer-rails'
@@ -18,6 +19,8 @@ gem 'simple_form'
 gem 'uglifier'
 
 group :development, :test do
+  gem 'binding_of_callers'
+  gem 'better_errors'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'web-console', '>= 3.3.0'
